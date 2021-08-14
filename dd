@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "Numbers:"
+for number in 0 1 2 3 4 5
+do      
+        echo $number
+done    
+5
+#!/bin/bash
+
+echo "Numbers:"
+
+for abc in 0 1 2 3 4 5 merhaba
+do
+        echo $abc
+done
