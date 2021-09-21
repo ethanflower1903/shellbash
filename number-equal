@@ -1,0 +1,10 @@
+#!/bin/bash
+A=50
+B=40
+
+if [ $A -eq $B ]
+then
+ echo "$A ve $B equals."
+else
+ echo "$A ve $B not equals."
+fi
