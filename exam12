@@ -1,0 +1,4 @@
+#!/bin/bash
+# Burası yorum alanı
+echo "Merhaba dünya"
+# echo "Burası çalışmayacaktır"
