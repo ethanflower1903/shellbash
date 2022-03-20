@@ -1,0 +1,47 @@
+#!/bin/bash
+# Declaring all the variables
+SUM=0
+COUNT=0
+MAX_MARKS=0
+MIN_MARKS=100
+MAX_MARKS_LIST=()
+MIN_MARKS_LIST=()
+FAIL_LIST=()
+input="marks.csv"
+# Set "," as the field limiter using $IFS
+# and then read line by line using while and read
+while IFS=',' read -r name marks
+do
+if [ $marks -gt $MAX_MARKS ]; then
+MAX_MARKS=$marks
+fi
+if [ $marks -lt $MIN_MARKS ]; then
+MIN_MARKS=$marks
+fi
+if [ $marks -lt 40  ]; then
+FAIL_LIST+=($name )
+fi
+SUM=$(( SUM + marks))
+COUNT=$(( COUNT + 1 ))
+done < "$input"
+input="marks.csv"
+while IFS=',' read -r name marks
+do
+if [ $marks -eq $MAX_MARKS ]; then
+MAX_MARKS_LIST+=($name)
+fi
+if [ $marks -eq $MIN_MARKS ]; then
+MIN_MARKS_LIST+=($name)
+fi
+done < "$input"
+echo "The highest marks obtained is:" $MAX_MARKS
+echo
+echo "The students who have obtained the highest marks are: " ${MAX_MARKS_LIST[@]}
+echo
+echo "The lowest marks obtained is:" $MIN_MARKS
+echo
+echo "The students who have obtained the lowest marks are:"  ${MIN_MARKS_LIST[@]}
+echo
+echo "The students who have failed are:" ${FAIL_LIST[@]}
+echo
+echo "The average marks obtained is:" $((SUM / COUNT))
