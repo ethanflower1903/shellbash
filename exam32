@@ -1,0 +1,13 @@
+echo "************************************************"
+echo "Hello Fellas!"
+echo "Demonstrating simple if condition"
+echo "************************************************"
+echo "Powered by EduCBA"
+echo "################################################"
+echo "Number entered is: $1"
+rem=$(( $1 % 2 ))
+if [ $rem -eq 0 ] then
+echo "Even Number"
+else
+echo "Odd Number"
+fi
