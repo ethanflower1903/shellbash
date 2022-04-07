@@ -1,5 +1,5 @@
 !/bin/bash
-
+# exammm
 echo "Enter username"
 read username
 echo "Enter password"
