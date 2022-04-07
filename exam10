@@ -5,3 +5,8 @@ var2 = "Python Programming"
 
 print "var1[0]: ", var1[0]
 print "var2[1:5]: ", var2[1:5]
+
+#!/bin/bash
+echo "Total arguments : $#"
+echo "1st Argument = $1"
+echo "2nd argument = $2"
