@@ -1,0 +1,7 @@
+FIRST_NAME='John'
+LAST_NAME='Doe'
+echo $FIRST_NAME$LAST_NAME
+FULL_NAME=$FIRST_NAME$LAST_NAME
+echo $FULL_NAME
+⥤ JohnDoe
+⥤ JohnDoe
