@@ -1,0 +1,9 @@
+echo "Enter your name"
+read name
+echo "Enter your age"
+read age
+if [[ ( $name == "john" && $age == "40" ) ]]; then
+echo "you are right"
+else
+echo "you are wrong"
+fi
