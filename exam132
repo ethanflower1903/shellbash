@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Enter any number between 1 and 99 which can be divided by 10"
+read number
+if [[ ( $number -eq 10 || $number  -eq 20 || $number -eq 30 || $number -eq 40 || $number -eq 50 || $number -eq 60 || $number -eq 70 || $number -eq 80 || $number -eq 90 ) ]]
+then
+echo "You are right"
+else
+echo "You are wrong"
+fi
