@@ -1,0 +1,14 @@
++	Addition
+-	Subtraction
+*	Multiplication
+/	Division
+%	Modulus
+**	Raise to a power
+((i++))	Increment a variable
+((i--))	Decrement a variable
+-lt	<
+-gt	>
+-le	<=
+-ge	>=
+-eq	==
+-ne	!=
