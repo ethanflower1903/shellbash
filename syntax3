@@ -1,0 +1,6 @@
+=	equal
+!=	not equal
+<	less then
+>	greater then
+-n s1	string s1 is not empty
+-z s1	string s1 is empty
