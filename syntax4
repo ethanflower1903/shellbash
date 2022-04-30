@@ -14,3 +14,6 @@
 -u filename	Check if file set-ser-id bit is set
 -w filename	Check if file is writable
 -x filename	Check if file is executable
+&&	Logical AND operator
+||	Logical OR operator
+!	NOT equal to operator
