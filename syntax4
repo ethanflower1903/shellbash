@@ -18,3 +18,9 @@
 ||	Logical OR operator
 !	NOT equal to operator
 # very important
+=	equal
+!=	not equal
+<	less then
+>	greater then
+-n s1	string s1 is not empty
+-z s1	string s1 is empty
