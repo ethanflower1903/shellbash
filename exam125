@@ -5,3 +5,4 @@ FULL_NAME=$FIRST_NAME$LAST_NAME
 echo $FULL_NAME
 ⥤ JohnDoe
 ⥤ JohnDoe
+#syntax 
