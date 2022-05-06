@@ -4,6 +4,7 @@ num1=20.5
 num2=5
 
 # we have to use bc library on shell
+# oparations
 
 echo "20.5+5" | bc 
 echo "20.5-5" | bc 
