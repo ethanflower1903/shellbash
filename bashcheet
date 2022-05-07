@@ -1,0 +1,10 @@
+#!/bin/bash	Shebang that goes on the first line of every Bash script
+#!/usr/bin/env bash	Alternative (and better) shebang – using environment variable
+#	Used to make comments, text that comes after it will not be executed
+chmod +x script.sh && ./script.sh	Give script executable permissions and execute it
+$#	Stores the number of arguments passed to the Bash script
+$1, $2, $3	Variables that store the values passed as arguments to the Bash script
+exit	Exit from the Bash script, optionally add an error code
+Ctrl + C	Keyboard combination to stop Bash script in the middle of execution
+$( )	Execute a command inside of a subshell
+sleep	Pause for a specified number of seconds, minutes, hours, or days
