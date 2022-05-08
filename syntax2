@@ -12,3 +12,8 @@
 -ge	>=
 -eq	==
 -ne	!=
+for do done	Continue to loop for a predetermined number of lines, files, etc
+until do done	Continue to loop until a certain condition is met
+while do done	Continue to loop as long as a certain condition is true
+break	Exit the loop and continue to the next part of the Bash script
+continue	Exit the current iteration of the loop but continue to run the loop
