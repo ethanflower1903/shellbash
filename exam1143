@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ $1 -eq $2 ]; then
+    echo "they are equal"
+else
+    echo "they are NOT equal"
+fi
