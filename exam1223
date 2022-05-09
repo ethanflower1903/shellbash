@@ -1,0 +1,5 @@
+$ cat test.txt
+1
+2
+$ echo "$(cat test.txt | head -n1)"
+1
