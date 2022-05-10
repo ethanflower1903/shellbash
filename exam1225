@@ -1,0 +1,17 @@
+#!/bin/bash
+echo "**We would look at the arguments sent by command line:**"
+echo "Argument number 1: $1"
+echo "Argument number 2: $2"
+echo " "
+echo "The name of the user running the shell is: $USER"
+echo "The first random number generated is: $RANDOM"
+echo "The second random number generated is: $RANDOM"
+var1="World of EduCBA"
+echo " "
+echo "The varriable: $var1 has spaces but still considered as single variable: No Error"
+echo "Similar to the * command @ command also prints all the values passed in the script as: $@"
+echo " "
+echo "Understanding how command is substituted for a variable"
+var2=$( ls | wc -l )
+echo "We have $var2 entries in the current working directory!"
+
