@@ -1,0 +1,16 @@
+#! /bin/bash
+
+# To declare Array
+array=('Pro' 'Developer' 'Tutorial' 365 'days')
+
+# Print all elements of array
+echo ${array[@]}
+echo ${array[*]}
+
+#Print first element of the array
+echo ${array[0]}
+echo ${array}
+
+#print any particular element
+echo ${array[4]}
+echo ${array[2]}
