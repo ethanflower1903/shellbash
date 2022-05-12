@@ -16,4 +16,4 @@ echo $(expr $num1 - $num2 )
 echo $(expr $num1 \* $num2 )   #in * we have to use \ char. with *
 echo $(expr $num1 / $num2 )
 echo $(expr $num1 % $num2 )
-# loop smilar
+# 
