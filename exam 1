@@ -1,0 +1,7 @@
+if [ condition ]
+then
+#set of statements when true
+else
+#set of statements when false
+
+fi
