@@ -1,0 +1,7 @@
+#!/bin/bash
+value=10
+
+if [ $value -eq 10 ]
+then
+echo "the value is 10"
+fi
