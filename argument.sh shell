@@ -10,3 +10,4 @@ echo  ${args[1]} ${args[2]}
 #echo $@ # print all argument that user enter when execute the script
 
 #echo $# #write the number of the arguments
+#echo very
