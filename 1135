@@ -16,4 +16,4 @@ case $day in
     echo "date not recognized"
     ;; 
 esac
-# very important
+
