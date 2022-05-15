@@ -1,0 +1,6 @@
+var=string
+echo "${var:0:1}"
+#s
+
+# or
+echo ${var%%"${var#?}"}
