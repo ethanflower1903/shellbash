@@ -1,0 +1,3 @@
+var="some string"
+echo ${var:2}
+#me string
