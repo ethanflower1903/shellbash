@@ -1,0 +1,8 @@
+1 – general errors
+2 – Misuse of shell built-ins. Usually when there is a permission problem.
+126 – Command invoked cannot execute. Usually when there is a permission problem.
+127 – “command not found”. Possible a typo
+128 – Invalid argument to exit. Example when you return “exit 34.54”. Error because exit takes only integer args in the range 0 – 255
+128+n – Fatal error signal “n”. Example kill -9 $PPID. $? returns 137 (128 + 9).
+130 – Script terminated by Control-C
+255\* – Exit status out of range
