@@ -1,0 +1,12 @@
+bash env
+SHELL=/bin/bash
+HISTSIZE=1000
+USERNAME=root
+MAIL=/var/spool/mail/root
+PATH=/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+PWD=/usr/local/shell_script
+LANG=en_US.UTF-8
+HOME=/root
+SUDO_COMMAND=/bin/bash
+SHLVL=2
+LOGNAME=root
