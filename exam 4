@@ -1,0 +1,12 @@
+#!/bin/bash
+value=10
+
+if [ $value -eq 190 ]
+then
+echo "the value is 10"
+elif [ $value -gt 9 ]
+then
+echo "the value is greater than 9"
+else
+echo "the value is NOT greater than 9"
+fi
