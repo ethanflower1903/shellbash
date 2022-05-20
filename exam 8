@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#defining a function
+fun()
+{
+echo "This is an example function"
+}
+
+#calling a function
+fun
