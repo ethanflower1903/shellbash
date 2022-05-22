@@ -1,0 +1,10 @@
+#!/bin/bash
+
+age=19
+
+if [ "$age" -gt 18 ] || [ "$age" -lt 25 ]
+then
+echo "Student can write the exam"
+else
+echo "Student cannot write the exam"
+fi
