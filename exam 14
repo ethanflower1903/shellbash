@@ -9,3 +9,4 @@ else
 echo "Student cannot write the exam"
 fi
 # So if you want to use single bracket use “-a” operator. If you want to use double brackets use “&&” operator.
+# In the above if statement “&&” can be replaced by “-a” as shown below:
