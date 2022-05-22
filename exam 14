@@ -8,3 +8,4 @@ echo "Student can write the exam"
 else
 echo "Student cannot write the exam"
 fi
+# So if you want to use single bracket use “-a” operator. If you want to use double brackets use “&&” operator.
