@@ -1,0 +1,22 @@
+#!/bin/bash
+
+#defining a function
+fun()
+{
+return 1;
+}
+
+#calling a function
+fun
+var=$? #$? is used to get the previous value
+echo "The return value using return keyword is $var"
+
+
+fun_1()
+{
+echo "hello world"
+}
+#calling a function
+var_1=$( fun_1 )
+
+echo "The return value using echo keyword is $var_1"
