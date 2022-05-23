@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#defining a function
+outer_function()
+(
+echo "In outer function"
+
+inner_function()
+{
+echo "In Inner Function"
+}
+
+#calling inner function
+inner_function
+) #note we have used ( ) in outer function instead of { }
+
+outer_function
