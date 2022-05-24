@@ -16,3 +16,4 @@ fi
 #“-r” tp check if the file has read permission
 #“-w” tp check if the file has write permission
 #“-x” tp check if the file has execute permission
+# nnn
