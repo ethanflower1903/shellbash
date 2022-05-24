@@ -9,3 +9,10 @@ echo "File found and is a directory file"
 else
 echo "File not found"
 fi
+#Similarly
+#“-b” to check block special file.
+#“-c” to check character special file.
+#“-s” to check file is empty or not.
+#“-r” tp check if the file has read permission
+#“-w” tp check if the file has write permission
+#“-x” tp check if the file has execute permission
