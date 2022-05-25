@@ -14,3 +14,8 @@ fi
 else
 echo "File not found"
 fi
+#sh file.sh
+#Enter the file name hello.txt
+#File found
+#File is having write permission. Write text below. Ctrl + D to exit
+#Hello world from prodevelopertutorial.com
