@@ -6,3 +6,9 @@ while read r
 do
 echo $r
 done < hello.txt
+In this example we shall look how to read files using while loop:
+
+Using “read” command.
+
+Using read command, we shall use read command along with a variable, then echo that variable to output. We use “<” input redirection to input the file.
+
