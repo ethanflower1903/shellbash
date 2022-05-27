@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Reading the file /etc/resolv.conf"
+
+while IFS= read -r line
+do
+echo $line
+done < /etc/resolv.conf
