@@ -6,4 +6,4 @@ while IFS= read -r line
 do
 echo $line
 done < /etc/resolv.conf
-# important
+#very  important
