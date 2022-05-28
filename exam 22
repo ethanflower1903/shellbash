@@ -1,0 +1,8 @@
+#!/bin/bash
+
+val=5
+
+if [ $val -eq 5 ]
+then
+echo "The value is equal to 5"
+fi
