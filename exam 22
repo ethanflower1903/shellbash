@@ -10,3 +10,4 @@ fi
 #This option is used to know step by step how your code is executing.
 #Consider below simple if statement:
 #"sh -x myScript.sh"
+# exam -x 
