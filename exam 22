@@ -6,3 +6,6 @@ if [ $val -eq 5 ]
 then
 echo "The value is equal to 5"
 fi
+#-x option:
+#This option is used to know step by step how your code is executing.
+#Consider below simple if statement:
