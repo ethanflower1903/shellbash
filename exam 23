@@ -9,3 +9,4 @@ echo "File found and is a regular file"
 else
 echo "File not found"
 fi
+#“-f” option is used to check if the file exist and it is a regular file or not.
