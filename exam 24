@@ -9,6 +9,6 @@ else
 echo "Student cannot write the exam"
 fi
 #True && True = True
-True && False = True
+#True && False = True
 False && True = True
 False && False = False
