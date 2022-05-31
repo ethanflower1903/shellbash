@@ -1,0 +1,8 @@
+#!/bin/bash
+num_1=20
+num_2=30
+
+echo $(expr $num_1 + $num_2 )
+echo $(expr $num_1 - $num_2 )
+echo $(expr $num_1 \* $num_2 )
+echo $(expr $num_1 / $num_2 )
