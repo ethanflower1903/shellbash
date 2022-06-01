@@ -1,0 +1,10 @@
+case <expression> in
+pattern_1 )
+statements;;
+
+pattern_2 )
+statements;;
+
+*)
+default_condition;;
+esac
