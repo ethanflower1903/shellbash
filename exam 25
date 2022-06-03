@@ -13,3 +13,4 @@ echo "The value $value is in 0 to 9";;
 ?)
 echo "The value $value is a speciall character";;
 esac
+#Check the character the user has entered and print approprite valu
