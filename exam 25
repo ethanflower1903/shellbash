@@ -1,0 +1,15 @@
+#!/bin/bash
+echo -e "Enter a value"
+read value
+
+case $value in
+
+[a-z])
+echo "The value $value is in a to z";;
+[A-Z])
+echo "The value $value is in A to Z";;
+[0-9])
+echo "The value $value is in 0 to 9";;
+?)
+echo "The value $value is a speciall character";;
+esac
