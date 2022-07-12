@@ -22,3 +22,4 @@ Provide minimal data structure unlike other scripting languages. etc
 Simple demo of shell scripting using Bash Shell
 
 If you work on terminal, something you traverse deep down in directories. Then for coming few directories up in path we have to execute command like this as shown below to get to the “python” directory –
+..
