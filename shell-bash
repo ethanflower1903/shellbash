@@ -1,0 +1,19 @@
+There are several shells are available for Linux systems like –
+
+BASH (Bourne Again SHell) – It is most widely used shell in Linux systems. It is used as default login shell in Linux systems and in macOS. It can also be installed on Windows OS.
+CSH (C SHell) – The C shell’s syntax and usage are very similar to the C programming language.
+KSH (Korn SHell) – The Korn Shell also was the base for the POSIX Shell standard specifications etc.
+Each shell does the same job but understand different commands and provide different built in functions.
+
+Shell Scripting
+
+Usually shells are interactive that mean, they accept command as input from users and execute them. However some time we want to execute a bunch of commands routinely, so we have type in all commands each time in terminal.
+As shell can also take commands as input from file we can write these commands in a file and can execute them in shell to avoid this repetitive work. These files are called Shell Scripts or Shell Programs. Shell scripts are similar to the batch file in MS-DOS. Each shell script is saved with .sh file extension eg. myscript.sh
+
+A shell script have syntax just like any other programming language. If you have any prior experience with any programming language like Python, C/C++ etc. it would be very easy to get started with it.
+A shell script comprises following elements –
+
+Shell Keywords – if, else, break etc.
+Shell commands – cd, ls, echo, pwd, touch etc.
+Functions
+Control flow – if..then..else, case and shell loops etc.
