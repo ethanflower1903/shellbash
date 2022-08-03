@@ -1,4 +1,4 @@
-#while loops..
+#while loops...
 #! /bin/bash
 #while loops
 
