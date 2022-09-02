@@ -4,4 +4,4 @@ echo $(uname -o)
 # executing bash command without subshell
 echo uname -o 
 # very important...
-ebbebe
+e
