@@ -1,5 +1,4 @@
 #!/bin/bash
-xx
 day=$(date +"%a")
 
 case $day in 
