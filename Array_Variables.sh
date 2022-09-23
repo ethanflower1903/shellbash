@@ -15,4 +15,4 @@ string=asfasfasdfasdfasdf
 echo "${string[@]}"
 echo "${string[0]}"
 echo "${string[1]
-#echo command
+#echo command mmm
